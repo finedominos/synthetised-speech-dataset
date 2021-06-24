@@ -1,12 +1,12 @@
-from ttsMaker import TTSMaker
+from speech_synthesis_src.ttsMaker import TTSMaker
 import json
 import numpy as np
 import os
 from tqdm import tqdm
 
 
-dataset_sentences_path = 'dataset_345_sentences.json'
-output_path = 'sentences_draft/'
+dataset_sentences_path = '../subset_345_sentences.json'
+output_path = '../audio_dataset/'
 
 # Importing the sentences from the JSON file
 with open(dataset_sentences_path, 'r') as file:
