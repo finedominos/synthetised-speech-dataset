@@ -3,7 +3,7 @@
 #### Creation and evaluation of a dataset of synthetic speech tracks
 
 ## Introduction
-This didactic Project was built in the frame of the Master "Music and Acoustic Engineering" at Politecnico di Milano. 
+This didactic Project was built in the frame of the Master program "Music and Acoustic Engineering" at Politecnico di Milano. 
 The goal of this project is to generate a dataset of synthetic speech that could be further used in the field of fake speech detection and similar.
 
 ## Content description
@@ -28,7 +28,7 @@ https://drive.google.com/file/d/1FVEcYTVtJYX-_e7GBgYmj15DRmnszyVS/view?usp=shari
 
 In the diagram above you can have a more detailed overview of the pipeline of the project. 
 - The first blocks on the left, corresponding to the generation of the "set of sentences", can be find in the first notebook (Dataset Creation).
-- The "Speech synthesis" blocked was achieved using the code you can find in the "speech_synthesis_src" folder.
+- The "Speech synthesis" block was achieved using the code you can find in the "speech_synthesis_src" folder.
 - The evaluation pipeline then corresponds to the two other Python notebooks of the project.
 
 ## Authors

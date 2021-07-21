@@ -5,8 +5,8 @@ import os
 from tqdm import tqdm
 
 
-dataset_sentences_path = '../subset_345_sentences.json'
-output_path = '../audio_dataset/'
+dataset_sentences_path = '../generated_json/subset_345_sentences.json'
+output_path = '../synthesised_audio_dataset_345/'
 
 # Importing the sentences from the JSON file
 with open(dataset_sentences_path, 'r') as file:
